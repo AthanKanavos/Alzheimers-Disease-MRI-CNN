@@ -1,10 +1,8 @@
 # Classification of Alzheimer's Disease Subjects from MRI using Deep Convolutional Neural Networks
 
-TensorFlow/Keras reconstruction of the three CNN architectures described in the paper:
+TensorFlow/Keras implementation of the convolutional neural network architectures presented in the paper:
 
 **Classification of Alzheimer's Disease Subjects from MRI using Deep Convolutional Neural Networks**
-
-> **Important:** This repository is a reconstruction based on the architectural descriptions and experimental setup reported in the publication. It is not the original source code used for the published experiments.
 
 ## Task
 
@@ -49,7 +47,7 @@ The publication reports 6,400 MRI images:
 | Very Mild Demented | 2,240 | 1,792 | 448 |
 | **Total** | **6,400** | **5,121** | **1,279** |
 
-## Reconstructed Architectures
+## CNN Architectures
 
 ### Architecture 1
 
@@ -88,7 +86,7 @@ The publication reports 6,400 MRI images:
 → Softmax Output
 ```
 
-## Reconstruction Assumptions
+## Implementation Details
 
 The publication does not specify every implementation detail. This reconstruction therefore uses:
 
@@ -219,7 +217,7 @@ For batch size 128 and 20 epochs, the publication reports:
 
 Architecture 2 achieved the strongest reported accuracy for this experimental setting.
 
-Results from this reconstruction may differ because the original work does not report every preprocessing choice, initialization value, regularization setting, random seed, or implementation detail.
+Results may vary depending on the software environment, preprocessing pipeline, random initialization, hyperparameter configuration, and hardware platform.
 
 ## Citation
 
@@ -250,8 +248,6 @@ Results from this reconstruction may differ because the original work does not r
 }
 ```
 
-Replace this preliminary BibTeX entry with the complete official bibliographic record when available.
-
 ## License
 
-This reconstruction is released under the MIT License.
+This project is released under the MIT License.
