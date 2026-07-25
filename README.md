@@ -221,6 +221,8 @@ Results may vary depending on the software environment, preprocessing pipeline, 
 
 ## Citation
 
+If you use this implementation in your research, please cite the original paper.
+
 ```bibtex
 @inproceedings{DBLP:conf/nids/Papadimitriou0M23,
   author       = {Orestis Papadimitriou and
