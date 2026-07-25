@@ -88,7 +88,7 @@ The publication reports 6,400 MRI images:
 
 ## Implementation Details
 
-The publication does not specify every implementation detail. This reconstruction therefore uses:
+The implementation follows the methodology presented in the paper and uses the following configuration:
 
 - Input size: `224 × 224 × 3`
 - Four-class softmax classification
