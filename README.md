@@ -224,10 +224,29 @@ Results from this reconstruction may differ because the original work does not r
 ## Citation
 
 ```bibtex
-@inproceedings{papadimitriou2023classification,
-  title={Classification of Alzheimer's Disease Subjects from MRI using Deep Convolutional Neural Networks},
-  author={Papadimitriou, Orestis and Kanavos, Athanasios and Mylonas, Phivos and Maragoudakis, Manolis},
-  year={2023}
+@inproceedings{DBLP:conf/nids/Papadimitriou0M23,
+  author       = {Orestis Papadimitriou and
+                  Athanasios Kanavos and
+                  Phivos Mylonas and
+                  Manolis Maragoudakis},
+  editor       = {Katerina Kabassi and
+                  Phivos Mylonas and
+                  Jaime Caro},
+  title        = {Classification of Alzheimer's Disease Subjects from {MRI} Using Deep
+                  Convolutional Neural Networks},
+  booktitle    = {Novel {\&} Intelligent Digital Systems: Proceedings of the 3rd
+                  International Conference (NiDS 2023) - Volume 2, Athens, Greece, 28-29
+                  September 2023},
+  series       = {Lecture Notes in Networks and Systems},
+  volume       = {784},
+  pages        = {277--286},
+  publisher    = {Springer},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/978-3-031-44146-2\_28},
+  doi          = {10.1007/978-3-031-44146-2\_28},
+  timestamp    = {Mon, 03 Mar 2025 21:19:19 +0100},
+  biburl       = {https://dblp.org/rec/conf/nids/Papadimitriou0M23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
